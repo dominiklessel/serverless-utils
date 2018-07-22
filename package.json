@@ -1,0 +1,49 @@
+{
+  "name": "@dominiklessel/serverless-utils",
+  "version": "1.0.0",
+  "description": "Opinionated utils for serverless applications.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "standard --fix && standard",
+    "pretest": "npm run lint",
+    "test": "npx jest --coverage",
+    "test-watch": "npx jest --coverage --watch --verbose",
+    "precommit": "npm test"
+  },
+  "keywords": [
+    "serverless",
+    "utils",
+    "lambda",
+    "aws lambda",
+    "api gateway",
+    "aws api gateway"
+  ],
+  "author": "Dominik Lessel <dominik@lessel.xyz>",
+  "license": "MIT",
+  "devDependencies": {
+    "boom": "^7.1.1",
+    "husky": "^0.14.3",
+    "jest": "^23.4.1",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "@sindresorhus/is": "^0.9.0",
+    "joi": "^13.4.0",
+    "serialize-error": "^2.1.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": "8.10.0"
+  },
+  "standard": {
+    "env": [
+      "node",
+      "jest"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
