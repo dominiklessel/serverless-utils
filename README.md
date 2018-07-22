@@ -1,6 +1,8 @@
 # @dominiklessel/serverless-utils
 > Opinionated utils for serverless applications.
 
+[![npm](https://img.shields.io/npm/v/@dominiklessel/serverless-utils.svg)](https://www.npmjs.com/package/@dominiklessel/serverless-utils)
+
 Intended to be used with [AWS Lambda](https://aws.amazon.com/lambda/) and [AWS API Gateway](https://aws.amazon.com/api-gateway/).
 
 ## Usage
